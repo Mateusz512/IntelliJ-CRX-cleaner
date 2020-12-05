@@ -1,9 +1,5 @@
 # IntelliJ-CRX-cleaner
 
-![Build](https://github.com/Mateusz512/IntelliJ-CRX-cleaner/workflows/Build/badge.svg)
-[![Version](https://img.shields.io/jetbrains/plugin/v/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
-[![Downloads](https://img.shields.io/jetbrains/plugin/d/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
-
 ## Template ToDo list
 - [x] Create a new [IntelliJ Platform Plugin Template][template] project.
 - [ ] Verify the [pluginGroup](/gradle.properties), [plugin ID](/src/main/resources/META-INF/plugin.xml) and [sources package](/src/main/kotlin).
@@ -25,7 +21,7 @@ To keep everything working, do not remove `<!-- ... -->` sections.
 
 - Using IDE built-in plugin system:
   
-  <kbd>Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd> > <kbd>Search for "IntelliJ-CRX-cleaner"</kbd> >
+  <kbd>Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd> > <kbd>Search for "IntelliJ CRX Cleaner"</kbd> >
   <kbd>Install Plugin</kbd>
   
 - Manually:

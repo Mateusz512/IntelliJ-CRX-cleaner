@@ -1,6 +1,6 @@
 <idea-plugin>
     <id>com.github.mateusz512.intellijcrxcleaner</id>
-    <name>IntelliJ-CRX-cleaner</name>
+    <name>IntelliJ CRX Cleaner</name>
     <vendor>mateusz512</vendor>
 
     <!-- Product and plugin compatibility requirements -->
@@ -8,12 +8,6 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.mateusz512.intellijcrxcleaner.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.mateusz512.intellijcrxcleaner.services.MyProjectService"/>
+        <preFormatProcessor implementation="com.github.mateusz512.intellijcrxcleaner.extensions.PreFormatProcessorExtension"/>
     </extensions>
-
-    <applicationListeners>
-        <listener class="com.github.mateusz512.intellijcrxcleaner.listeners.MyProjectManagerListener"
-                  topic="com.intellij.openapi.project.ProjectManagerListener"/>
-    </applicationListeners>
 </idea-plugin>
