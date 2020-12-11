@@ -1,20 +1,31 @@
 # IntelliJ-CRX-cleaner
 
-## Template ToDo list
-- [x] Create a new [IntelliJ Platform Plugin Template][template] project.
-- [ ] Verify the [pluginGroup](/gradle.properties), [plugin ID](/src/main/resources/META-INF/plugin.xml) and [sources package](/src/main/kotlin).
-- [ ] Review the [Legal Agreements](https://plugins.jetbrains.com/docs/marketplace/legal-agreements.html).
-- [ ] [Publish a plugin manually](https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/publishing_plugin.html) for the first time.
-- [ ] Set the Plugin ID in the above README badges.
-- [ ] Set the [Deployment Token](https://plugins.jetbrains.com/docs/marketplace/plugin-upload.html).
-- [ ] Click the <kbd>Watch</kbd> button on the top of the [IntelliJ Platform Plugin Template][template] to be notified about releases containing new features and fixes.
-
 <!-- Plugin description -->
-This Fancy IntelliJ Platform Plugin is going to be your implementation of the brilliant ideas that you have.
+This plugin takes care of manually removing obsolete XML tag properties for JCR content.
 
-This specific section is a source for the [plugin.xml](/src/main/resources/META-INF/plugin.xml) file which will be extracted by the [Gradle](/build.gradle.kts) during the build process.
+Simply hit that <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>L</kbd> and watch the magic happen.
 
-To keep everything working, do not remove `<!-- ... -->` sections. 
+![A demo of the plugin](./doc/crx-cleaner.gif)
+
+Can be:
+* used on files
+* used on directories
+* added as pre-commit step
+
+List of removed properties (inspired by [Gradle AEM Plugin](https://github.com/Cognifide/gradle-aem-plugin/blob/master/docs/package-sync-plugin.md#default-cleaning-configuration)):
+```
+jcr:lastModified.*
+jcr:created.*
+jcr:isCheckedOut
+cq:lastReplicat.*
+cq:lastModifi.*
+dam:extracted
+dam:assetState
+dc:modified
+.*_x0040_.*
+jcr:uuid
+```
+
 <!-- Plugin description end -->
 
 ## Installation
