@@ -5,7 +5,7 @@ This plugin takes care of manually removing obsolete XML tag properties for JCR 
 
 Simply hit that <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>L</kbd> and watch the magic happen.
 
-![A demo of the plugin](./doc/crx-cleaner.gif)
+![A demo of the plugin](https://github.com/Mateusz512/IntelliJ-CRX-cleaner/raw/main/doc/crx-cleaner.gif)
 
 Can be:
 * used on files
