@@ -3,14 +3,18 @@
 <!-- Plugin description -->
 This plugin takes care of manually removing obsolete XML tag properties for JCR content.
 
+
 Simply hit that <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>L</kbd> and watch the magic happen.
 
+
 ![A demo of the plugin](https://github.com/Mateusz512/IntelliJ-CRX-cleaner/raw/main/doc/crx-cleaner.gif)
+
 
 Can be:
 * used on files
 * used on directories
 * added as pre-commit step
+
 
 List of removed properties (inspired by [Gradle AEM Plugin](https://github.com/Cognifide/gradle-aem-plugin/blob/master/docs/package-sync-plugin.md#default-cleaning-configuration)):
 ```
@@ -25,6 +29,8 @@ dc:modified
 .*_x0040_.*
 jcr:uuid
 ```
+
+Source code can be found in [this repository](https://github.com/Mateusz512/IntelliJ-CRX-cleaner).
 
 <!-- Plugin description end -->
 

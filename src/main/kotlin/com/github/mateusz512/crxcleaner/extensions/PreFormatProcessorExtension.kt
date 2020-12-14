@@ -1,6 +1,6 @@
-package com.github.mateusz512.intellijcrxcleaner.extensions
+package com.github.mateusz512.crxcleaner.extensions
 
-import com.github.mateusz512.intellijcrxcleaner.core.XmlTreeProcessor
+import com.github.mateusz512.crxcleaner.core.XmlTreeProcessor
 import com.intellij.lang.ASTNode
 import com.intellij.openapi.components.service
 import com.intellij.openapi.util.TextRange

@@ -1,6 +1,6 @@
 <idea-plugin>
-    <id>com.github.mateusz512.intellijcrxcleaner</id>
-    <name>IntelliJ CRX Cleaner</name>
+    <id>com.github.mateusz512.crxcleaner</id>
+    <name>CRX Cleaner</name>
     <vendor>mateusz512</vendor>
 
     <!-- Product and plugin compatibility requirements -->
@@ -8,6 +8,6 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <preFormatProcessor implementation="com.github.mateusz512.intellijcrxcleaner.extensions.PreFormatProcessorExtension"/>
+        <preFormatProcessor implementation="com.github.mateusz512.crxcleaner.extensions.PreFormatProcessorExtension"/>
     </extensions>
 </idea-plugin>

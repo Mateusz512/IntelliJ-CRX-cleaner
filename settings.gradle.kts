@@ -1,1 +1,1 @@
-rootProject.name = "IntelliJ-CRX-cleaner"
+rootProject.name = "CRX-cleaner"

@@ -1,6 +1,6 @@
-package com.github.mateusz512.intellijcrxcleaner.core
+package com.github.mateusz512.crxcleaner.core
 
-import com.github.mateusz512.intellijcrxcleaner.configuration.ConfigurationProvider
+import com.github.mateusz512.crxcleaner.configuration.ConfigurationProvider
 import com.intellij.openapi.components.Service
 import com.intellij.openapi.components.service
 import com.intellij.psi.PsiElement

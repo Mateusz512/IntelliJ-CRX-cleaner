@@ -1,4 +1,4 @@
-package com.github.mateusz512.intellijcrxcleaner.configuration
+package com.github.mateusz512.crxcleaner.configuration
 
 import com.intellij.openapi.components.Service
 
