@@ -17,6 +17,7 @@ Can be:
 
 
 List of removed properties (inspired by [Gradle AEM Plugin](https://github.com/Cognifide/gradle-aem-plugin/blob/master/docs/package-sync-plugin.md#default-cleaning-configuration)):
+
 ```
 jcr:lastModified.*
 jcr:created.*
@@ -29,6 +30,7 @@ dc:modified
 .*_x0040_.*
 jcr:uuid
 ```
+
 
 Source code can be found in [this repository](https://github.com/Mateusz512/IntelliJ-CRX-cleaner).
 
