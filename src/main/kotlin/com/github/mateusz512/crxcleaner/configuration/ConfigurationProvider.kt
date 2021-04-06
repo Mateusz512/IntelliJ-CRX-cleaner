@@ -6,16 +6,17 @@ import com.intellij.openapi.components.Service
 class ConfigurationProvider {
 
     val obsoleteAttributes = setOf(
-            """jcr:lastModified.*""".toRegex(),
-            """jcr:created.*""".toRegex(),
-            """jcr:isCheckedOut""".toRegex(),
-            """cq:lastReplicat.*""".toRegex(),
-            """cq:lastModifi.*""".toRegex(),
-            """dam:extracted""".toRegex(),
-            """dam:assetState""".toRegex(),
-            """dc:modified""".toRegex(),
-            """.*_x0040_.*""".toRegex(),
-            """jcr:uuid""".toRegex()
-        )
+            """jcr:lastModified.*""",
+            """jcr:created.*""",
+            """jcr:isCheckedOut""",
+            """cq:lastReplicat.*""",
+            """cq:lastModifi.*""",
+            """dam:extracted""",
+            """dam:assetState""",
+            """dc:modified""",
+            """.*_x0040_.*""",
+            """jcr:uuid""",
+            """cq:lastRolledout.*"""
+        ).map(String::toRegex)
     
 }
