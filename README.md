@@ -29,6 +29,7 @@ dam:assetState
 dc:modified
 .*_x0040_.*
 jcr:uuid
+cq:lastRolledout.*
 ```
 
 
