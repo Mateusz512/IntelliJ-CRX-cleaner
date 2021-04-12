@@ -2,6 +2,9 @@
 
 # CRX-cleaner Changelog
 
+## 0.0.3
+- Added support for IntelliJ 2021.1
+
 ## 0.0.2
 - Added `cq:lastRolledout.*` property
 
