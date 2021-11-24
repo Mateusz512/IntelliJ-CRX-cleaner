@@ -18,5 +18,4 @@ class PreFormatProcessorExtension : PreFormatProcessor {
         }
         return range
     }
-
 }
