@@ -35,6 +35,7 @@ val platformDownloadSources: String by project
 
 group = pluginGroup
 version = pluginVersion
+changelog.version = pluginVersion
 
 // Configure project's dependencies
 repositories {
