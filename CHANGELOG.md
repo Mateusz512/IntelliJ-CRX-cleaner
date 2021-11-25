@@ -3,7 +3,7 @@
 # CRX-cleaner Changelog
 
 ## [Unreleased]
-- Added support for IntelliJ Build 213.*
+- Added support for IntelliJ Build 213.* 
 
 ## [0.0.3]
 - Added support for IntelliJ 2021.1
