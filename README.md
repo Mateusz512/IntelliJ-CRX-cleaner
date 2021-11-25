@@ -1,5 +1,7 @@
 # IntelliJ-CRX-cleaner
 
+![Build](https://github.com/Mateusz512/IntelliJ-CRX-cleaner/actions/workflows/build.yml/badge.svg)
+
 <!-- Plugin description -->
 This plugin takes care of manually removing obsolete XML tag properties for JCR content.
 
