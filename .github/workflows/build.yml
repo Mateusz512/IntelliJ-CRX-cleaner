@@ -42,9 +42,9 @@ jobs:
       - name: Setup Java
         uses: actions/setup-java@v3
         with:
-          distribution: 'temurin'
-          java-version: '11'
-          cache: 'gradle'
+          distribution: zulu
+          java-version: 11
+          cache: gradle
 
       # Check out current repository
       - name: Fetch Sources
