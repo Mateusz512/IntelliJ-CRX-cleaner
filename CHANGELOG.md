@@ -3,26 +3,35 @@
 # CRX-cleaner Changelog
 
 ## [Unreleased]
+
+## [0.0.5]
+
 ### Added
+- Added support for IntelliJ Build 221.*
 
 ### Changed
+- Updated build.gradle.kts and gradle.properties to latest [IntelliJ Platform Plugin Template](https://github.com/JetBrains/intellij-platform-plugin-template)
 
-### Deprecated
-
-### Removed
-
-### Fixed
-
-### Security
 ## [0.0.4]
-- Added support for IntelliJ Build 213.* 
+
+### Added
+
+- Added support for IntelliJ Build 213.*
 
 ## [0.0.3]
+
+### Added
+
 - Added support for IntelliJ 2021.1
 
 ## [0.0.2]
+
+### Added
+
 - Added `cq:lastRolledout.*` property
 
 ## [0.0.1]
-- Initial release
 
+### Added
+
+- Initial release
